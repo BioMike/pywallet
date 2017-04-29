@@ -59,6 +59,8 @@ import math
 
 # bitcointools hashes and base58 implementation
 from hashes import *
+# SlowAES implementation
+from aes import *
 
 try:
 	from twisted.internet import reactor
